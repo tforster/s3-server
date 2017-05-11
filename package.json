@@ -1,0 +1,29 @@
+{
+  "name": "s3-server",
+  "version": "1.0.0",
+  "description": "An Amazon S3 compatible server suitable for local development",
+  "scripts": {
+    "start": "node_modules/s3rver/bin/s3rver.js -h 0.0.0.0 -p 4568 -d ./data -i index.html -e error.html"
+  },
+  "author": "Troy Forster",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.49.0",
+    "s3rver": "^1.0.3"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "S3",
+    "local",
+    "development",
+    "docker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tforster/s3-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tforster/s3-server/issues"
+  },
+  "homepage": "https://github.com/tforster/s3-server#readme"
+}
